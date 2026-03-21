@@ -1,0 +1,83 @@
+personas:
+  vp_sales:
+    title_patterns:
+      - "VP of Sales"
+      - "VP Sales"
+      - "Vice President of Sales"
+      - "Head of Sales"
+    pain_points:
+      - pipeline visibility and forecast accuracy
+      - rep productivity and ramp time
+      - deal velocity and conversion rates
+    tone: executive
+    max_length: 150
+    forbidden_phrases:
+      - "hope this finds you well"
+      - "just checking in"
+      - "quick question"
+      - "I wanted to reach out"
+      - "synergy"
+
+  revops:
+    title_patterns:
+      - "Revenue Operations"
+      - "RevOps"
+      - "Sales Operations"
+      - "GTM Operations"
+      - "GTM Strategy"
+    pain_points:
+      - data hygiene and CRM adoption
+      - tool sprawl and integration gaps
+      - manual reporting and attribution
+    tone: peer
+    max_length: 200
+    forbidden_phrases:
+      - "game-changer"
+      - "revolutionary"
+      - "unlock growth"
+      - "I saw your profile"
+
+  marketing_leader:
+    title_patterns:
+      - "VP of Marketing"
+      - "Head of Marketing"
+      - "Director of Marketing"
+      - "Head of Demand Generation"
+      - "Demand Gen"
+    pain_points:
+      - pipeline attribution and CAC
+      - lead quality vs quantity tradeoff
+      - campaign ROI measurement
+    tone: professional
+    max_length: 175
+    forbidden_phrases:
+      - "content is king"
+      - "growth hacking"
+      - "move the needle"
+
+  cro:
+    title_patterns:
+      - "Chief Revenue Officer"
+      - "CRO"
+      - "VP of Growth"
+    pain_points:
+      - full-funnel revenue visibility
+      - GTM alignment across sales and marketing
+      - forecasting accuracy at board level
+    tone: executive
+    max_length: 120
+    forbidden_phrases:
+      - "hope this finds you well"
+      - "exciting opportunity"
+      - "I'd love to"
+
+  default:
+    title_patterns: []
+    pain_points:
+      - operational efficiency
+      - data-driven decision making
+    tone: professional
+    max_length: 200
+    forbidden_phrases:
+      - "hope this finds you well"
+      - "I wanted to reach out"
