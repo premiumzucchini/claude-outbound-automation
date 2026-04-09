@@ -203,4 +203,4 @@ A rich prospect context with a minimal system prompt produces better outreach th
 
 ---
 
-*Built based on real GTM automation work at a B2B SaaS company. All prospect data in this repo is synthetic.*
+*  No real prospect or company data is included in this repository.*
