@@ -28,7 +28,7 @@ class OutreachGenerator:
     - Structured JSON output for reliable parsing
     """
 
-    def __init__(self, api_key: str, model: str = "claude-sonnet-4-20250514"):
+    def __init__(self, api_key: str, model: str = "claude-sonnet-4-6"):
         self.client = anthropic.Anthropic(api_key=api_key)
         self.model = model
         self.max_retries = 3
